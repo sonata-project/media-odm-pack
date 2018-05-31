@@ -1,0 +1,29 @@
+{
+    "name": "sonata-project/media-odm-pack",
+    "type": "symfony-pack",
+    "description": "A pack for SonataMediaBundle with MongoDB support",
+    "keywords": [
+        "media",
+        "mongodb",
+        "sonata"
+    ],
+    "homepage": "https://sonata-project.org/bundles/media",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Rabaix",
+            "email": "thomas.rabaix@sonata-project.org",
+            "homepage": "https://sonata-project.org"
+        },
+        {
+            "name": "Sonata Community",
+            "homepage": "https://github.com/sonata-project/media-odm-pack/contributors"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "alcaeus/mongo-php-adapter": "^1.1",
+        "sonata-project/doctrine-mongodb-admin-bundle": "^3.1",
+        "sonata-project/media-bundle": "^3.13"
+    }
+}
